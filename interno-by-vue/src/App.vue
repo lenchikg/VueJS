@@ -7,6 +7,7 @@
 <FooterBlock/>
 <ArticlesSort/>
 <ArticlesFilter/>
+<ProjectsComp/>
     </div>
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
@@ -20,6 +21,7 @@ import MainBlock from './components/MainBlock.vue'
 import FooterBlock from './components/FooterBlock.vue'
 import ArticlesSort from './pages/ArticlesSort.vue'
 import ArticlesFilter from './pages/ArticlesFilter.vue'
+import ProjectsComp from './components/ProjectsComp.vue'
 
 export default {
   name: 'App',
@@ -29,7 +31,8 @@ export default {
     MainBlock,
     FooterBlock,
     ArticlesSort,
-    ArticlesFilter
+    ArticlesFilter,
+    ProjectsComp
   }
 }
 </script>
