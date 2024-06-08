@@ -2795,8 +2795,11 @@ h4 {
     background-position-y: 58% !important
 }
 
+/* страница проекта, сюда ставим картинку другую */
 .hero-sub[data-page=project] {
-    background-position-y: 55% !important
+    background-position-y: 55% !important;
+    background: url(img/hero/project.jpg) no-repeat;
+    /* кажись оно*/
 }
 
 .hero-sub[data-page=blog] {

@@ -2,7 +2,7 @@
     <div>
   <section class="post">
           <div class="post__container">
-              <h2 class="post__title">Filter Sort Articles by Tags on Vue</h2>
+              <h2 class="post__title">Filter Articles by Tags on Vue</h2>
               <br>
               <div class="articles__filters">
                   <div id="tag-buttons">

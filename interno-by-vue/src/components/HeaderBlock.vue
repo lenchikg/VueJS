@@ -25,6 +25,9 @@
                             <a class='menu__link' href='projects.html'>Projects</a>
                         </li>
                         <li class="menu__item">
+                            <a class='menu__link' href='project.html'>Project</a>
+                        </li>
+                        <li class="menu__item">
                             <a class='menu__link' href='blog.html'>Blog</a>
                         </li>
                         <!-- <li class="menu__item">

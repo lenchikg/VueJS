@@ -4,24 +4,30 @@
         <div class="overlay"></div>
 <HeaderBlock />
 <MainBlock/>
-<FooterBlock/>
+<ArticlesPage/>
 <ArticlesSort/>
 <ArticlesFilter/>
 <ProjectsComp/>
+<ProjectPage/>
+<ProjectBlock/>
+<SliderSwiperISO />
+<!-- ФУТЕР ВСЕГДА ВНИЗУ -->
+<FooterBlock/>
     </div>
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import HeaderBlock from './components/HeaderBlock.vue'
 import MainBlock from './components/MainBlock.vue'
 import FooterBlock from './components/FooterBlock.vue'
+import ArticlesPage from './pages/ArticlesPage.vue'
 import ArticlesSort from './pages/ArticlesSort.vue'
 import ArticlesFilter from './pages/ArticlesFilter.vue'
 import ProjectsComp from './components/ProjectsComp.vue'
+import ProjectBlock from './components/ProjectBlock.vue'
+import SliderSwiperISO from './components/SliderSwiperISO.vue'
+import ProjectPage from './pages/ProjectPage.vue'
 
 export default {
   name: 'App',
@@ -30,9 +36,13 @@ export default {
     HeaderBlock,
     MainBlock,
     FooterBlock,
+    ArticlesPage,
     ArticlesSort,
     ArticlesFilter,
-    ProjectsComp
+    ProjectsComp,
+    ProjectBlock,
+    SliderSwiperISO,
+    ProjectPage
   }
 }
 </script>
