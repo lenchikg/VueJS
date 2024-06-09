@@ -1,14 +1,14 @@
 <template>
   <div>
     <main class="page">
-            <section class="hero-sub" data-page="projects">
+            <!-- <section class="hero-sub" data-page="projects">
                 <div class="hero-sub__container">
                     <div class="hero-sub__page current-page">
                         <h2 class="current-page__name">Our Projects</h2>
                         <div class="current-page__path">Home / Projects</div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <section class="projects">
                 <div class="projects__container">

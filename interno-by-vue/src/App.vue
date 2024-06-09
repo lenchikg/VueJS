@@ -3,46 +3,52 @@
     <div class="wrapper">
         <div class="overlay"></div>
 <HeaderBlock />
-<MainBlock/>
-<ArticlesPage/>
+<!-- <MainBlock/> -->
+<!-- <ArticlesPage/>
 <ArticlesSort/>
 <ArticlesFilter/>
 <ProjectsComp/>
 <ProjectPage/>
 <ProjectBlock/>
-<SliderSwiperISO />
+<SliderSwiperISO /> -->
 <!-- ФУТЕР ВСЕГДА ВНИЗУ -->
-<FooterBlock/>
+
     </div>
+    <!-- <router-link to="/">MainPage</router-link> |
+    <router-link to="/ArticlesPage">ArticlesPage</router-link> |
+    <router-link to="/ProjectPage">ProjectPage</router-link> -->
+    <router-view/>
+    <FooterBlock/>
   </div>
 </template>
 
 <script>
 import HeaderBlock from './components/HeaderBlock.vue'
-import MainBlock from './components/MainBlock.vue'
+// import MainBlock from './components/MainBlock.vue'
+// import MainBlock from './components/MainBlock.vue'
 import FooterBlock from './components/FooterBlock.vue'
-import ArticlesPage from './pages/ArticlesPage.vue'
-import ArticlesSort from './pages/ArticlesSort.vue'
-import ArticlesFilter from './pages/ArticlesFilter.vue'
-import ProjectsComp from './components/ProjectsComp.vue'
-import ProjectBlock from './components/ProjectBlock.vue'
-import SliderSwiperISO from './components/SliderSwiperISO.vue'
-import ProjectPage from './pages/ProjectPage.vue'
+// import ArticlesPage from './pages/ArticlesPage.vue'
+// import ArticlesSort from './pages/ArticlesSort.vue'
+// import ArticlesFilter from './pages/ArticlesFilter.vue'
+// import ProjectsComp from './components/ProjectsComp.vue'
+// import ProjectBlock from './components/ProjectBlock.vue'
+// import SliderSwiperISO from './components/SliderSwiperISO.vue'
+// import ProjectPage from './pages/ProjectPage.vue'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
     HeaderBlock,
-    MainBlock,
-    FooterBlock,
-    ArticlesPage,
-    ArticlesSort,
-    ArticlesFilter,
-    ProjectsComp,
-    ProjectBlock,
-    SliderSwiperISO,
-    ProjectPage
+    // MainBlock,
+    FooterBlock
+    // ArticlesPage,
+    // ArticlesSort,
+    // ArticlesFilter,
+    // ProjectsComp,
+    // ProjectBlock,
+    // SliderSwiperISO,
+    // ProjectPage
   }
 }
 </script>

@@ -9,8 +9,8 @@
                       </div>
                   </div>
               </section>
-
-              <section class="projects">
+              <ProjectsComp/>
+              <!-- <section class="projects">
                   <div class="projects__container">
                       <div class="projects__filters">
                           <div class="projects__filter">Bathroom</div>
@@ -262,14 +262,20 @@
                           </div>
                       </div>
                   </div>
-              </section>
+              </section> -->
           </main>
     </div>
   </template>
 
 <script>
+import ProjectsComp from '../components/ProjectsComp.vue'
+
 export default {
-  name: 'ProjectsComp',
+  name: 'ProjectsPage',
+
+  components: {
+    ProjectsComp
+  },
 
   data () {
     return {

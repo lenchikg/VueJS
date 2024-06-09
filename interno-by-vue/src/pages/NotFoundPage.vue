@@ -2,15 +2,11 @@
   <div>
     <div>
     <!-- HTML -->
-    <h2>HomePage</h2>
-    <!-- <p>Мой компонент</p> -->
-    <!-- <input type='text'> -->
+    <h2>NotFoundPage 404</h2>
+    <p>К сожалению, страница, которую вы открывали не найдена</p>
+    <input type='text'>
     <br>
     <br>
-    <HeaderBlock />
-<MainBlock/>
-<!-- ФУТЕР ВСЕГДА ВНИЗУ -->
-<FooterBlock/>
     <!-- <button>КНОПКА</button> -->
     </div>
   </div>
@@ -18,7 +14,7 @@
 
 <script>
 export default {
-  name: 'HomePage',
+  name: 'NotFoundPage',
 
   data () {
     return {

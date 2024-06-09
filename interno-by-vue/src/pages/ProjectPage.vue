@@ -19,12 +19,18 @@
     <!-- _____________________________________________________________________ -->
     <br>
     <br>
+    <!-- <ProjectPage/> -->
   </div>
 </template>
 
 <script>
+import SliderSwiperISO from './SliderSwiperISO.vue'
+
 export default {
   name: 'ProjectPage',
+  components: {
+    // ProjectPage,
+  },
 
   data () {
     return {

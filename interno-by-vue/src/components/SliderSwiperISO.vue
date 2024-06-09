@@ -108,7 +108,7 @@ export default {
     transform: translateY(-50%);
     background: transparent;
     border: none;
-    font-size: 24px;
+    font-size: 34px;
     color: #cda274;
     cursor: pointer;
     z-index: 1;

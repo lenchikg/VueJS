@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- <HeaderBlock/> -->
     <div>
         <main class="page">
             <section class="hero-sub" data-page="blog">
@@ -10,35 +11,43 @@
                     </div>
                 </div>
             </section>
+            <ArticlesSort/>
+            <br>
+            <br>
+            <br>
+            <br>
+            <ArticlesFilter/>
         </main>
     </div>
+
+    <!-- <FooterBlock/> -->
   </div>
 </template>
 
 <script>
+import ArticlesSort from './ArticlesSort.vue'
+import ArticlesFilter from './ArticlesFilter.vue'
+// import HeaderBlock from '../components/HeaderBlock.vue'
+
 export default {
   name: 'ArticlesPage',
+  components: {
+    ArticlesFilter,
+    ArticlesSort
+    // HeaderBlock
+  },
 
   data () {
     return {
-
     }
   },
 
-  mounted () {
+  mounted () {},
 
-  },
+  computed: {},
 
-  computed: {
-
-  },
-
-  methods: {
-
-  }
+  methods: {}
 }
 </script>
 
-<style lang="css" scoped>
-
-</style>
+<style lang="css" scoped></style>
